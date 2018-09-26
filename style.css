@@ -1,0 +1,462 @@
+html, body
+
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+body {
+    font-family: "Amiko", "Roboto", sans-serif
+} 
+
+h1 { font-size: 2em; }
+h2 { font-size: 1.5em; }
+h3 { font-size: 1.17em; }
+h4 { font-size: 1.12em; }
+h5 { font-size: .83em; }
+h6 { font-size: .75em; }
+
+.head {
+    display: inline-block;
+    margin-left: 70px;
+    margin: 0px auto 0px auto;
+    width: 100%;
+}
+#search-form {
+    margin-left: 720px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.nav-bar ul {
+    list-style-type: none;
+    text-align: center;
+    padding-left: 0px;
+}
+
+.nav-bar ul li {
+    list-style-type: none;
+    text-align: center;
+    display: inline-block;
+}
+
+.nav-left {
+    margin-left: 100px;
+    color: white;
+}
+
+.nav-right {
+    margin-right: 100px;
+    color: white;
+}
+
+.nigga {
+    color: #8B008B;
+}
+
+.logo {
+    margin: 0px 100px;
+    color: white;
+}
+
+
+.landing {
+    background-image: url('images/background2.png');
+    height: 750px;
+    width: 100%;
+}
+
+.landing h2, .landing p {
+    text-align: center;
+    color:black;
+}
+
+.container {
+    padding: 10px 20px;
+    margin: 10px;
+}
+
+.upper-header  {
+    display:inline-flex;
+    width: 100%;
+}
+
+.upper-header h2 {
+    color: white;
+}
+
+
+.header {
+    background-color: black;
+    opacity: .75;
+    height: 220px;
+}
+
+#header-margin {
+    margin-top: 0px;
+}
+
+.who-we-are {
+    background-color: darkgray;
+    width: 50%;
+    vertical-align: middle;
+    margin: 150px auto;
+    opacity: .85;
+}
+
+h4 {
+    color: white;
+}
+
+.container .head {
+    margin: 0px auto;
+}
+
+#input {
+    height: 18px;
+    width: 120px;
+    padding-bottom: 70px;
+}
+
+#searchbar {
+    margin-top: 23px;
+    padding-top: 50px;
+}
+
+.btn {
+    width: 100px;
+    height: 40px;
+    border: 0px;
+}
+
+
+.search-btn {
+    width: 40px;
+    height: 20px;
+    padding-top: 2px;
+    color: white;
+    background-color: gray
+}
+
+.search-btn:hover {
+     background-color: #404040;
+     color: white;
+}
+
+
+#search-icon {
+    padding: 10px auto 0px auto;
+}
+
+.hr-page2-head {
+    width: 80%;
+    border-color: lightgray;
+    border-bottom-width: thin;
+    height: 0px;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: darkgray;
+}
+
+.more-info:hover {
+    background-color: black;
+    color: white;
+}
+/* page 2 */
+
+.how-help {
+    background-color: whitesmoke;
+    height: 400px;
+    vertical-align: middle;
+    padding-top: 22px;
+}
+
+
+.notop-margin {
+    margin: 0px 10px;
+    padding: 10px 20px;
+}
+
+.help-page {
+    border-left: 1px solid gold;
+    display: inline-block;
+    width: 18%;
+    padding: 0px 20px;
+}
+
+.yo {
+     padding: 10px 20px 10px 80px;
+}
+
+.homepage {
+    text-align: center
+}
+
+.featured-properties {
+    display: inline-block;
+    width: 28.2%;
+    margin: 10px 10px;
+    padding: 10px 20px;
+    text-align: center;
+    overflow-x: hidden;
+    
+}
+
+.feat {
+    background-color: #D2B48C;
+    color: white;
+}
+
+.featured-properties:hover {
+    background-color: black;
+}
+
+.footer {
+    background-color: #303030;
+    width: 100%;
+    padding: 10px 20px 40px 20px;
+    color: white;
+}
+
+#input-email {
+    height: 10px;
+    
+}
+
+@media  screen and (max-width: 1400px) {
+    .featured-properties {
+    width: 28%;
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media  screen and (max-width: 1200px) {
+    h1 { font-size: 1.8em; }
+h2 { font-size: 1.2em; }
+h3 { font-size: 1.05em; }
+p { font-size: 1em; }
+    .header {
+        height: 210px;
+    }
+    .nav-bar ul li {
+    font-size: 18px;
+}
+    .nav-left {
+    margin-left: 60px;
+    color: white;
+}
+
+.nav-right {
+    margin-right: 60px;
+    color: white;
+}
+    .logo {
+    margin: 0px 60px;
+    font-size: 26px;
+}
+    #search-form {
+    margin-left: 569px;
+}
+    .help-page {
+    width: 150px;
+    }
+    .featured-properties {
+    width: 27%;
+}
+    .house-pic {
+        height: 140px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media  screen and (max-width: 992px) {
+    
+h1 { font-size: 1.5em; }
+h2 { font-size: 1.15em; }
+h3 { font-size: .95em; }
+p { font-size: .9em; }
+    .header {
+        height: 180px;
+    }
+    .nav-bar ul li {
+    font-size: 14px;
+}
+    .nav-left {
+    margin-left: 30px;
+    color: white;
+}
+
+.nav-right {
+    margin-right: 30px;
+    color: white;
+}
+    .logo {
+    margin: 0px 30px;
+    font-size: 26px;
+}
+    #search-form {
+    margin-left: 340px;
+}
+    .help-page {
+    display: inline-block;
+    border: none;
+    border-left: 1px solid gold;  
+    margin-right: 40px;
+    margin-left: 40px;
+    
+}
+    .featured-properties {
+    width: 24%;
+}
+    .house-pic {
+        height: 110px;
+    }
+    
+    .how-help {
+        height: 580px
+    }
+    .yo {
+        width: 600px;
+        margin: 10px auto;
+        padding-right: 60px;
+    }
+}
+ 
+/* Medium devices (landscape tablets, 768px and up) */
+@media  screen and (max-width: 768px) { 
+        
+h1 { font-size: 1.5em; }
+h2 { font-size: 1.15em; }
+h3 { font-size: .95em; }
+p { font-size: .9em; }
+    
+
+    .header {
+        height: 390px;
+    }
+    
+    .nav-bar ul {
+        border-bottom: 1px solid white;
+        transition: background-color 0.2s;
+        margin: 0px;
+    }
+    
+    .nav-bar ul li {
+    list-style-type: none;
+    text-align: center;
+    font-size: 14px;
+    width: 100%;
+    margin: 0px;
+    border-bottom: 1px solid darkgrey;
+    }
+    .nav-bar ul li:hover {
+        background-color: darkgray;
+    }
+
+    .nav-left {
+    margin-left: 30px;
+    color: white;
+    
+}
+
+.nav-right {
+    margin-right: 30px;
+    color: white;
+}
+    .logo {
+    margin: 0px 30px;
+    font-size: 26px;
+}
+
+    #search-form {
+    margin-left: 340px;
+}
+    
+    .who-we-are {
+    margin: 40px auto;
+    }
+    .help-page {
+    margin-left: 10px;
+    
+}
+    .featured-properties {
+    width: 38%;
+}
+    .house-pic {
+        height: 110px;
+    }
+    
+    .how-help {
+        height: 580px
+    }
+    .yo {
+        width: 600px;
+        margin: 10px auto;
+        padding-right: 60px;
+    }
+
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media  screen and (max-width: 600px) {
+         
+h1 { font-size: 1.4em;}
+h2 { font-size: 1.15em; margin: 18.5px 0px; }
+h3 { font-size: .9em;}
+    h4{  font-size: 1.05em ; margin: 18.5px 0px;}        
+p { font-size: .79em; }
+    
+
+    .header {
+        height: 354px;
+    }
+    
+    .nav-bar ul {
+        border-bottom: 1px solid white;
+        transition: background-color 0.2s;
+        margin: 0px;
+    }
+    
+    
+
+    .logo {
+    margin: 0px 20px;
+    font-size: 26px;
+}
+    
+    #header-margin {
+        height: 30px;
+    }
+
+    #search-form {
+    margin-left: 0px;
+}
+    
+    .who-we-are {
+    margin: 38px auto;
+    }
+    .help-page {
+    margin-left: 10px;
+    
+}
+    .featured-properties {
+    width: 86%;
+}
+    .house-pic {
+        height: 110px;
+    }
+    
+    .how-help {
+        height: 840px
+    }
+    .yo {
+        width: 400px;
+    }
+
+}
